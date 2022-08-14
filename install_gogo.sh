@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-## run me : curl -sSL https://raw.githubusercontent.com/zhouzhipeng/public/main/install_gogo.sh | bash
+## run me : curl -sSL https://raw.githubusercontent.com/zhouzhipeng/public/main/install_gogo.sh | sh
 
 set -eux 
 
