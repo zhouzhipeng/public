@@ -12,7 +12,7 @@ curl -sSL https://raw.githubusercontent.com/zhouzhipeng/public/main/gogo_bin/web
 chmod +x gogo web
 
 # register service
-cat > /etc/systemd/system/gogo.service <<EOF
+cat << EOF > /etc/systemd/system/gogo.service
 [Unit]
 Description=GoGo Service
 After=network.target
@@ -25,7 +25,7 @@ ExecStart=/root/gogo
 [Install]
 WantedBy=multi-user.target
 
->EOF
+EOF
 
 systemctl daemon-reload
 
