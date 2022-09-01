@@ -4,6 +4,8 @@
 
 set -eux 
 
+apt install -y unzip
+
 cd /root
 
 curl -sSL https://github.com/zhouzhipeng/public/releases/download/1.0/gogo_debian.zip --output gogo_debian.zip
