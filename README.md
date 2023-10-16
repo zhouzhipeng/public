@@ -1,5 +1,6 @@
-# install gogo service
+# download gogo service
 ```bash
-curl -sSL https://raw.githubusercontent.com/zhouzhipeng/public/main/install_gogo.sh | sudo bash
+curl -sSL https://github.com/zhouzhipeng/public/releases/download/1.0/codebox --output codebox
+curl -sSL https://github.com/zhouzhipeng/public/releases/download/1.0/web --output web
 
 ```
