@@ -2,10 +2,9 @@
 # website home url (bitcoin wallet)
 https://public.zhouzhipeng.com
 
-# download gogo service
+# install codebox service
 ```bash
-curl -sSL https://github.com/zhouzhipeng/public/releases/download/1.0/codebox --output codebox
-curl -sSL https://github.com/zhouzhipeng/public/releases/download/1.0/web --output web
+curl -sSL https://public.zhouzhipeng.com/install_codebox.sh | sudo bash
 
 ```
 

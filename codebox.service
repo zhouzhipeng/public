@@ -1,0 +1,12 @@
+[Unit]
+Description=Codebox Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/root/codebox
+
+[Install]
+WantedBy=multi-user.target
