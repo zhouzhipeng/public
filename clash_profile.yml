@@ -18,9 +18,9 @@ dns:
      - tls://dns.google:853
 
 proxies:
-    - {type: trojan, name: 'korea.zhouzhipeng.com', server: 'korea.zhouzhipeng.com', port: 9000, password: '123456', skip-cert-verify: true}
+    - {type: trojan, name: 'korea', server: 'korea.zhouzhipeng.com', port: 9000, password: '123456', skip-cert-verify: true}
 proxy-groups:
-- { name: Proxy, type: select, proxies: ['korea.zhouzhipeng.com'] }
+- { name: Proxy, type: select, proxies: ['korea'] }
 rules:
 # (Proxy)
 # > ABC
