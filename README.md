@@ -2,11 +2,6 @@
 # website home url (bitcoin wallet)
 https://public.zhouzhipeng.com
 
-# install codebox service
-```bash
-curl -sSL https://public.zhouzhipeng.com/install_codebox.sh | sudo bash
-
-```
 
 
 # Clash
